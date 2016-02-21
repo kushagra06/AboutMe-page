@@ -1,0 +1,73 @@
+header, nav, section, article, footer 
+{
+    border:1px solid grey; 
+    margin:20px; 
+    padding:10px;
+}
+
+nav ul li
+{
+    display:inline;
+    float:center;
+    margin:5px;
+}
+
+nav
+{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+h1
+{
+    font-family: 'Niconne'; 
+    font-size: 40px; 
+    line-height: 1.3em;
+}
+
+small
+{
+    font-size: 15px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+a:link
+{
+    background-color: #280000;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+a:visited 
+{
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+a:hover, li:hover
+{
+    background-color: #600000;
+    color: white;
+}
+
+a:active, li:active
+{
+    background-color: #FF704D;
+    color: white;
+}
+
+

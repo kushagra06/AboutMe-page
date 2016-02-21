@@ -1,0 +1,13 @@
+body
+{
+    color: white;
+    text-align: center;
+    background-color: #181818;
+}
+
+td, tr, table
+{
+    margin: 50px;
+    padding: 25px;
+    float: center;
+}
